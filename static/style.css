@@ -1,0 +1,45 @@
+.group.title::after{
+    content: "what i have done";
+}
+.group.carousel.card{
+    background: #f40202;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.group.carousel.card:hover{
+    background: crimson;
+}
+.group.carousel.card.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.group.carousel.card:hover.box{
+    transform: scale(1.05);
+}
+.group.carousel.card.text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.group.carousel.card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.group .carousel .card:hover img{
+    border-color: #fff;
+}
+.group.card.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
